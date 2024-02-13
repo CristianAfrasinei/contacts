@@ -57,7 +57,7 @@ body{
         height: 28px;
         border-radius: 6px;
         background: #F0D1A5;
-        color: fff; 
+        color: #fff; 
         text-align: center;
         font-family: "DM Sans";
         font-size: 16px;
@@ -71,7 +71,7 @@ body{
         height: 28px;
         border-radius: 6px;
         background: #C2E297;
-        color: fff;
+        color: #fff;
         text-align: center;
         font-family: "DM Sans";
         font-size: 16px;
@@ -79,9 +79,17 @@ body{
         line-height: 186%;
         letter-spacing: 0.64px;
     }
+    .contacts-city-days{
+        color: #000;
+        font-family: "DM Sans";
+        font-size: 16px;
+        font-weight: 800;
+        line-height: 186%;
+        letter-spacing: 0.64px;
+    }
     
     .contacts-date{
-        color: #000;
+        color: #000000;
         font-family: "DM Sans";
         font-size: 16px;
         font-weight: 800;
