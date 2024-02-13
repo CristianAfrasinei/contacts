@@ -4,6 +4,9 @@ body{
     line-height: normal;
   }
   
+  p{
+    margin: 0;
+  }
   .link{
     text-decoration: none;
   }
@@ -13,9 +16,8 @@ body{
     padding: 0;
   }
   
-  img{
-      display: block;
-  }
+
+/*Contacts side*/
   
   .contacts-section{
     background: #FFF5F6;
@@ -41,7 +43,7 @@ body{
         padding-right: 40px;
         display: flex;
         flex-direction: column;
-        gap:0px;
+        gap: 22px;
     }
     
     .address-type{
@@ -141,6 +143,10 @@ body{
         font-weight: 700;
         border: none;
     }
+
+    .contacts-location-button:focus,
+.contacts-location-button:hover {
+  border: none;}
     
     .contacts-franchise-button{
         width: 168px;
@@ -154,3 +160,7 @@ body{
         font-weight: 700;
         border: none;
     }
+    .contacts-franchise-button:focus,
+.contacts-franchise-button:hover {
+  border: none;
+}
