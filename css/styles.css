@@ -41,7 +41,7 @@ body{
         padding-right: 40px;
         display: flex;
         flex-direction: column;
-        gap:22px;
+        gap:0px;
     }
     
     .address-type{
