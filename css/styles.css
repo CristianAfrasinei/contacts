@@ -34,8 +34,8 @@ body{
     }
     
     .contacts-individuals{
-        width: 368px;
-        height: 538px;
+        max-width: 368px;
+        max-height: 538px;
         border-radius: 24px;
         background: #FFF;
         box-shadow: 0px 8px 30px 0px rgba(212, 20, 67, 0.10);
@@ -55,8 +55,8 @@ body{
     }
     
     .contacts-place-cafe{
-        width: 75.103px;
-        height: 28px;
+        max-width: 75.103px;
+        max-height: 28px;
         border-radius: 6px;
         background: #F0D1A5;
         color: #fff; 
@@ -69,8 +69,8 @@ body{
     }
     
     .contacts-place-foodtruck{
-        width: 138px;
-        height: 28px;
+        max-width: 138px;
+        max-height: 28px;
         border-radius: 6px;
         background: #C2E297;
         color: #fff;
@@ -132,8 +132,8 @@ body{
     }
     
     .contacts-location-button{
-        width: 198px;
-        height: 44px;
+        max-width: 198px;
+        max-height: 44px;
         border-radius: 22px;
         background: #D41342;
         color: #FFF;
@@ -143,14 +143,15 @@ body{
         font-weight: 700;
         border: none;
     }
+    
 
     .contacts-location-button:focus,
 .contacts-location-button:hover {
   border: none;}
     
     .contacts-franchise-button{
-        width: 168px;
-        height: 44px;
+        max-width: 168px;
+        max-height: 44px;
         border-radius: 22px;
         background: #FFF;
         color: #D41443;
@@ -164,3 +165,45 @@ body{
 .contacts-franchise-button:hover {
   border: none;
 }
+
+
+@media screen and (max-width: 320px) {
+    .contacts-container {
+      flex-direction: column;
+      align-items: center;
+      margin-top: 60px; 
+    }
+  
+    .contacts-individuals {
+      width: 100%;
+      height: auto; 
+      padding: 20px; 
+    }
+  
+    .contacts-place-cafe,
+    .contacts-place-foodtruck,
+    .contacts-city-days,
+    .contacts-date,
+    .contacts-text,
+    .contacts-hours,
+    .address-type {
+      text-align: center; 
+    }
+  
+    .contacts-list-space {
+      gap: 2px; 
+    }
+  
+    .contacts-buttons {
+      flex-direction: column;
+      align-items: center;
+      padding-bottom: 60px; 
+    }
+  
+    .contacts-location-button,
+    .contacts-franchise-button {
+      width: 100%; 
+    }
+
+    
+  }
