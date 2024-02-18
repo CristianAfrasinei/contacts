@@ -180,8 +180,10 @@ p{
         background: #ECEBEB;
     }
 
+    /*responsive*/
+
     @media screen and (width >=768px){
-        /*Contacts Side*/
+    
         
         
             .contacts-container {
@@ -259,12 +261,12 @@ p{
                 width: 174px;       
             }
         
-            /*End Contacts side*/
+            
         }
         
         @media screen and (width >=1158px){
         
-            /*Contacts Side*/
+            
             
                 .contacts-section {
                     background: #FFF5F6;
@@ -404,7 +406,7 @@ p{
                     border: none;
                 }
             
-                /*End Contacts side*/
+        
         }
         
         
