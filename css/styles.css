@@ -17,7 +17,7 @@ body{
   }
   
 
-/*Contacts side*/
+/*Contacts*/
   
   .contacts-section{
     background: #FFF5F6;
@@ -181,7 +181,7 @@ body{
   }
 
 
-  /*tablet*/
+
 
   @media screen and (width >=768px){
 
@@ -282,7 +282,7 @@ body{
     
     }
     
-/*dekstop*/
+
 
     @media screen and (width >=1158px){
     
@@ -492,7 +492,7 @@ body{
     }
 }
 
-/*mobile*/
+
 
 @media screen and (max-width: 320px) {
   .contacts-container {
