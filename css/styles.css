@@ -184,7 +184,7 @@ body{
   /*tablet*/
 
   @media screen and (width >=768px){
-    /*Contacts Side*/
+
     
     
         .contacts-container {
@@ -427,7 +427,6 @@ body{
                 border: none;
             }
         
-            /*End Contacts side*/
     }
 
 
@@ -564,5 +563,4 @@ body{
               border: none;
           }
 
-  /* ... Alte stiluri specifice pentru ecrane de 320px ... */
 }
